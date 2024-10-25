@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.subs{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sub1{
+    background-image: url('../assets/img/pic1.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub1 .title{
+    font-size: 200px;
+    margin-top: 40%;
+    color: #f4c00a;
+}
+
+.sub1 .subtitle{
+    font-size: 40px;
+    margin: 60px;
+    color: white;
+}
+
+.sub2{
+    background-image: url('../assets/img/pic2.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub2 .left-ques{
+    margin: 60px;
+}
+
+.sub2 .left-ques p{
+    font-size: 60px;
+    color: #f4c00a;
+}
+
+.sub2 .right-desc{
+    margin: 60px;
+}
+
+.sub2 .right-desc *{
+    margin: 20px;
+}
+
+.read-more-btn{
+    border: 1px solid #f4c00a;
+    border-radius: 5px;
+    background-color: #f4c00a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.sub3{
+    background-image: url('../assets/img/pic3.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.sub3 .title{
+    margin-bottom: 40px;
+    font-size: 45px;
+    color: #f4c00a;
+}
+
+.sub3 .locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sub3 .locations > *{
+    margin: 25px;
+    width: 250px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.breck{
+    background-image: url('../assets/img/breckenridge.jpg');
+}
+
+.rockymtn{
+    background-image: url('../assets/img/rockymtn.jpg');
+}
+
+.steamboat{
+    background-image: url('../assets/img/steamboat.jpg');
+}
+
+.sub3 .read-more-btn{
+    margin-top: 40px;
+}
+
+.sub4{
+    background-image: url('../assets/img/pic4.jpg');
+}
+
+.sub5{
+    background-image: url('../assets/img/pic5.jpg');
+}
+
+.sub6{
+    background-image: url('../assets/img/pic6.jpg');
+}
+
+.sub7{
+    background-image: url('../assets/img/pic11.jpg');
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
