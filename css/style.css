@@ -30,7 +30,7 @@ p{
 
 .sub1 .title{
     font-size: 200px;
-    margin-top: 40%;
+    margin-top: 25%;
     color: #f4c00a;
 }
 
@@ -43,7 +43,14 @@ p{
 .arrow-icon{
     width: 90px;
     height: auto;
-    filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.3));
+    margin: 40px;
+    transition-duration: 250ms;
+}
+
+.arrow-icon:hover{
+    width: 100px;
+    height: auto;
+    margin: 35px;
 }
 
 .sub2{
@@ -56,6 +63,7 @@ p{
 
 .left-ques{
     margin: 60px;
+    width: 50%;
 }
 
 .left-ques p{
@@ -65,6 +73,7 @@ p{
 
 .right-desc{
     margin: 60px;
+    width: 50%;
 }
 
 .right-desc *{
@@ -78,6 +87,13 @@ p{
     color: black;
     padding: 10px 20px;
     font-size: 20px;
+    transition-duration: 225ms;
+}
+
+.read-more-btn:hover, .submit-btn:hover{
+    padding: 11px 21px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
 }
 
 .sub3{
@@ -111,6 +127,15 @@ p{
     flex-direction: column;
     justify-content: end;
     align-items: flex-start;
+    transition-duration: 225ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 25ms;
+}
+
+.sub3 .locations > *:hover{
+    width: 275px;
+    height: 380px;
+    margin: 12px 25px;
 }
 
 .sub3 .locations p{
@@ -162,12 +187,12 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 150px;
+    margin: 150px 300px;
 }
 
 .circles >*{
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     background-color: black;
     border: 1px solid black;
     border-radius: 50%;
@@ -179,12 +204,12 @@ p{
 
 .circles .num{
     color: #f4c00a;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .circles .words{
-    font-size: 15px;
-    margin-top: 15px;
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 .sub6{
@@ -231,6 +256,7 @@ p{
     margin: 150px 0px;
     margin-left: 150px;
     align-items: flex-start;
+    width: 50%;
 }
 
 .contact-info >*{
@@ -251,6 +277,10 @@ p{
     margin: 10px;
 }
 
+.contact-btns img:hover{
+    opacity: 50%;
+}
+
 .fbbtn{
     margin-left: 0;
 }
@@ -265,6 +295,7 @@ p{
     flex-direction: column;
     margin-right:150px;
     align-items: flex-start;
+    width: 50%;
 }
 
 .contact-form >*{
@@ -272,7 +303,7 @@ p{
 }
 
 .contact-form input{
-    width: 400px;
+    width: 80%;
     height: 30px;
     background: transparent;
     border: 2px solid lightgray;
