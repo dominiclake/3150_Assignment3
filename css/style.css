@@ -53,6 +53,10 @@ p{
     margin: 35px;
 }
 
+.sub1 .arrow-icon, .sub6 .arrow-icon{
+    animation: bounce 6s infinite;
+}
+
 .sub2{
     background-image: url('../assets/img/pic2.jpg');
     display: flex;
@@ -67,7 +71,7 @@ p{
 }
 
 .left-ques p{
-    font-size: 60px;
+    font-size: 90px;
     color: #f4c00a;
 }
 
@@ -118,8 +122,8 @@ p{
 
 .sub3 .locations > *{
     margin: 25px;
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -133,9 +137,9 @@ p{
 }
 
 .sub3 .locations > *:hover{
-    width: 275px;
-    height: 380px;
-    margin: 12px 25px;
+    width: 400px;
+    height: 550px;
+    margin: 0px 25px;
 }
 
 .sub3 .locations p{
@@ -187,7 +191,7 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 300px;
+    margin: 150px 5%;
 }
 
 .circles >*{
@@ -200,6 +204,14 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition-duration: 225ms;
+    transition-delay: 25ms;
+}
+
+.circles >*:hover{
+    height: 350px;
+    width: 350px;
+
 }
 
 .circles .num{
@@ -214,6 +226,9 @@ p{
 
 .sub6{
     background-image: url('../assets/img/pic6.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .review{
@@ -221,9 +236,10 @@ p{
     flex-direction: column;
     align-items: center;
     margin: 60px;
+    width: 65%;
 }
 
-.review img{
+.review .portrait{
     border-radius: 50%;
 }
 
@@ -316,6 +332,23 @@ p{
     color: lightgray;
 }
 
+.message-box{
+    width: 80%;
+}
+
 .message-box input{
     height: 80px;
+    width: 100%;
+}
+
+@keyframes bounce {
+    0%, 14%, 28%{
+        transform: translateY(0);
+    }
+    7% {
+        transform: translateY(10px);
+    }
+    21% {
+        transform: translateY(10px);
+    }
 }
