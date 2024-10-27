@@ -291,9 +291,11 @@ p{
 
 .contact-btns >*{
     margin: 10px;
+    font-size: 40px;
+    color: #f4c00a;
 }
 
-.contact-btns img:hover{
+.contact-btns >*:hover{
     opacity: 50%;
 }
 
